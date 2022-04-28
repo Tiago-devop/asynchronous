@@ -8,7 +8,31 @@
     <title>Fetch</title>
   </head>
   <body>
-    <div class="container"></div>
+    <style>
+      label {
+        display: block;
+      }
+      input {
+        display: block;
+      }
+    </style>
+    <form id="buscaCep">
+      <label for="cep">CEP</label>
+      <input type="text" name="cep" id="cep" />
+      <input type="button" value="Buscar Cep" id="btnCep" />
+    </form>
+    <div class="resultadoCep"></div>
+    <div>---------------------------------</div>
+    <div>
+      <h2>Preço BTC</h2>
+      <p class="btc"></p>
+    </div>
+    <div>---------------------------------</div>
+    <div>
+      <h2>Pegar Piada do Chuck Norris</h2>
+      <p class="piada"></p>
+      <button class="piadaBotao">Prox. piada</button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
