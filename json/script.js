@@ -17,6 +17,7 @@ const stringConfig = JSON.stringify(configuracoes);
 
 console.log(stringConfig);
 
+<<<<<<< HEAD
 const jsonPronto = JSON.parse(stringConfig);
 
 console.log(jsonPronto, "json.pase aqui");
@@ -24,3 +25,8 @@ console.log(jsonPronto, "json.pase aqui");
 fetch("https://pokeapi.co/api/v2/pokemon/")
   .then((response) => response.json())
   .then((data) => console.log(data.results));
+=======
+const jsonPronto = JSON.parse(stringConfig)
+
+console.log(jsonPronto, "json.pase aqui");
+>>>>>>> e77f28cc7fc7f42b5942df918ea1831c94623fbb
